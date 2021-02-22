@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Akaya+Telivigala&display=swap');
+body{
+background: turquoise;
+margin: 0;
+}
+layout {
+    width: 980px;
+    margin: 0 auto 10 px;
+    background: #33dbc5;
+}
+.header {
+    padding: 1px;
+    border: 1px;
+    margin: auto;
+    background-color: rgb(117, 211, 211);
+    text-align: center;
+    color: teal;
+    font-size: 35px;
+    font-family: url('https://fonts.googleapis.com/css2?family=Akaya+Telivigala&display=swap');
+}
+.rightSidebar {
+    padding: 10px;
+    border: 10px;
+    margin: auto;
+    background-color: rgb(16, 194, 194);
+    width: 180px;
+    float: left;
+    font-size: medium;
+}
+.content {
+    padding: 10px;
+    border: 10px;
+    margin: auto;
+    background-color: turquoise;
+    margin-left: 250px;
+    width: 800px;
+}
+.footer{
+    clear: both;
+    background-color: teal;
+    border-top: 1 px solid khaki;
+}
+ul {
+    list-style: none;
+    padding: 0;
+}
+img{
+    padding: 1px;
+    border: 1px;
+    margin: 1px;
+    width: 200px;
+    
+}
