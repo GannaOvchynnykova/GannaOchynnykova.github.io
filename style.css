@@ -3,12 +3,15 @@ body{
     background: url(img/sea-2755908_1920.jpg);
     background-size: 100%;
     margin: 0 auto;
+    font-family: fantasy;
 
 }
 
 .box-header{
     padding: 15px;
     margin: 0 auto;
+    width: 100%;
+    overflow: hidden;
 }
 .first {
     width: 300px;
@@ -68,24 +71,32 @@ body{
      display: inline-block;
  }
 
-.box-layout div div{
-    margin: 0;
+.box-layout{
+    margin: 15px;
     position: relative;
     bottom: 70px;
-    height: 500px;
+    height: auto;
+    padding: auto;
+    width: 100%;
+    
 }
 .box-sidebar{
     width: 400px;
     height: auto ;
     float: left;
     position: relative;
-    bottom: 300px;
-    background-image: url(img/clouds-1923545_1280.png);
+    bottom: 200px;
+    background-image: linear-gradient(to right, #9EEFE1 0%, teal 51%, #9EEFE1 100%);
+    border-radius: 20px;
 }
 .losung-sidebar{
     text-align: center;
 padding: 10px;
 margin: 10px;
+}
+.surf-text{
+    padding: 10px;
+    margin: 10px;
 }
 .img-surf{
     width: 350px;
@@ -97,18 +108,19 @@ background-size: cover;
 .box-content {
     padding: 20px;
     margin: 20px;
-      background: transparent;
+    background: transparent;
     position: relative;
     bottom: 300px; 
     margin-left: 300px;
-    overflow: auto;
+    overflow: hidden;
 }
-.box-main{
+iframe{
     float: left;
     margin: 20px;
     position: relative;
     background-size: cover;
-    width: 550px;
+    width: 100%;
+    border-radius: 20px;
 }
 .main-title{
     text-align: center;
@@ -117,31 +129,46 @@ background-size: cover;
 }
 .box-info {
     position: relative;
+    padding: auto;
     bottom: 150px;
     overflow: hidden;
-    position: relative;
-    bottom: 220px;
-
+    width: 100%;
 }
-.box-ayurveda, .box-pose, .box-panchakarma {
-    width: 33.33%;
-    float: left;
-    background: transparent;
-    
+.read-more{
+    text-decoration: none;
+    display: inline-block;
+    color: rgb(139, 108, 20);
+    padding: 20px 30px;
+    margin: 10px 20px;
+    border-radius: 10px;
+    font-family: fantasy;
+    letter-spacing: 2px;
+    background-image: linear-gradient(to right, #9EEFE1 0%, teal 51%, #9EEFE1 100%);
+    background-size: 200% auto;
+    box-shadow: 0 0 20px rgba(0, 0, 0, .1);
+    transition: .5s;
+  }
 
+.box-ayurveda, .box-pose, .box-panchakarma {
+    width: 33%;
+    float: left;
+}
+.p-info{
+    size: 20px;
 }
 .box-info div div {
-    margin: 0 10px;
+    margin: 10px;
     padding: 10px;
-    height: 700px;
+    height: 750px;
     background-image: url(img/clouds-1923545_1280.png);
-    color: darkslategray;
+    background-size: 500% auto;
     overflow: auto;
     position: relative;
 }
-.img-ayurveda, .img-pose, .img-panchakarma{
-    position: relative;
-    width: 20px;
+
+.box-img-info{
+    width: 400px;
+    border-radius: 100px;
 
 } 
 
